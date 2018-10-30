@@ -5,6 +5,7 @@
 #customlogo{margin:10px auto;float:left;}
 html, body{margin:0;padding:0;height:100%;min-width:1000px;width:100%}
 body{color:#156594}
+body *{font-family: 'Open Sans', sans-serif}
 a, a:visited, a:hover, a:active, a:focus{color:#156594;cursor:pointer;text-decoration:none}
 ul{list-style:none}
 hr{height:0;border:none;margin:0;padding:0}

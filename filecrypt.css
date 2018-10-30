@@ -1,3 +1,30 @@
+.mirror/* Defaults */
+.window {height:100%!important;min-height: calc(100vh - 80px);}
+.footer{display:none;}
+.g-recaptcha > div {margin:0 auto;}
+#customlogo{margin:10px auto;float:left;}
+html, body{margin:0;padding:0;height:100%;min-width:1000px;width:100%}
+body{color:#156594}
+body *{font-family: 'Open Sans', sans-serif}
+a, a:visited, a:hover, a:active, a:focus{color:#156594;cursor:pointer;text-decoration:none}
+ul{list-style:none}
+hr{height:0;border:none;margin:0;padding:0}
+.lang{display:none}
+button, .fcbtn{border:1px solid rgba(0,0,0,.2);cursor:pointer;outline:none}
+.support img:hover, .support_2 img:hover,
+.protection a img:hover{filter:brightness(1.05)!important;-webkit-filter:brightness(1.05)!important}
+.sidemenu{background:#fff;top:50%;margin-top:-75px;min-height:100px;width:50px;padding:0;position:fixed;border-radius:5px 0 0 5px;right:0;box-shadow:-2px 2px 3px rgba(0,0,0,.15);z-index:99;overflow:hidden}
+.sidemenu li{border-bottom:1px solid rgba(0,0,0,.15);height:50px;width:100%;box-sizing:border-box;text-align:center}
+.sidemenu li:hover{background:#1B91DB;cursor:pointer}
+.sidemenu li:last-child{border:none}
+.sidemenu li:last-child:hover{background:#db1b1b}
+.sidemenu li svg{height:50%;width:auto;padding:25% 0;pointer-events:none;fill:#1B91DB}
+.sidemenu li:hover svg{fill:#fff}
+.top .minibox a.login{padding:5px 0 5px 40px;background:url(../images/lock.png) left center no-repeat;font-weight:600;color:#fff;text-decoration:none}
+.top .minibox a.login:hover{background-position:-100px 0;cursor:pointer;text-shadow:0 1px 3px rgba(0,0,0,.3)}
+.protection div.input{display:inline-block;max-width:250px;width:100%;position:relative;margin:20px auto;}
+#adcopy_response {color:#000}
+button + small, .fcbtn + small {display: block;margin:10px auto}
 
 /* Header */
 .top{position:relative;width:100%;overflow:hidden;min-width:1000px;height:80px;z-index:10;background:#1B91DB}

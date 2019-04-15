@@ -14,6 +14,6 @@ var p=n.published.$t;var v=p.substring(0,4);var m=p.substring(5,7);var g=p.subst
 document.write("</ul>")}
 
 //Script Image Resize
-$(document).ready(function(){$('.label_thumb').attr('src',function(i,src){return src.replace('s72-c','w300-h300-p-k-no-nu')})})
-$(document).ready(function(){$('.label_thumb_40').attr('src',function(i,src){return src.replace('s72-c','s40-c')})})
+$(document).ready(function(){$('.label_thumb').attr('src',function(i,src){return src.replace('w300-h300-p-k-no-nu','w300-h300-p-k-no-nu')})})
+$(document).ready(function(){$('.label_thumb_40').attr('src',function(i,src){return src.replace('s40-c','s40-c')})})
 //]]>
